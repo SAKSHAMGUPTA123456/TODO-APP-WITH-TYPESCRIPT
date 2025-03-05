@@ -10,7 +10,7 @@ function deletefromlocal(valuing) {
 function showonscreen(values) {
     var _loop_1 = function (y) {
         var div = document.createElement('div');
-        div.style.display = "fcdlex";
+        div.style.display = "flex";
         div.style.justifyContent = "between";
         div.style.border = "2px solid black";
         var text1 = document.createElement('h1');
@@ -29,7 +29,7 @@ function showonscreen(values) {
         div50.style.width = "100px";
         button45.style.backgroundColor = "red";
         button45.style.marginLeft = "40px";
-        button45.style.width = "40px";
+        button45.style.width = "50px";
         button45.innerText = "Delete";
         div.style.overflowWrap = 'break-word';
         div.style.backgroundColor = "black";
