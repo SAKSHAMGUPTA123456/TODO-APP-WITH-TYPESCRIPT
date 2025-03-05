@@ -1,5 +1,5 @@
 
-localStorage.clear();
+// localStorage.clear();
 let firstss=document.getElementById('text1') as HTMLInputElement
 let button=document.getElementById('text2')as HTMLButtonElement
 let hackings=document.getElementById('container')as HTMLDivElement
@@ -11,7 +11,7 @@ localStorage.removeItem(valuing)
 function showonscreen(values:any){
     for(let y=0;y<values.length;y++){
         let div=document.createElement('div')as HTMLDivElement
-        div.style.display="fcdlex"
+        div.style.display="flex"
      div.style.justifyContent="between"
         div.style.border="2px solid black"
         let text1=document.createElement('h1')as HTMLElement
@@ -30,7 +30,7 @@ function showonscreen(values:any){
         div50.style.width="100px"
         button45.style.backgroundColor="red"
         button45.style.marginLeft="40px"
-        button45.style.width="40px"
+        button45.style.width="50px"
         button45.innerText="Delete"
         div.style.overflowWrap = 'break-word'; 
         div.style.backgroundColor="black"

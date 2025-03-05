@@ -10,7 +10,7 @@ function deletefromlocal(valuing) {
 function showonscreen(values) {
     var _loop_1 = function (y) {
         var div = document.createElement('div');
-        div.style.display = "flex";
+        div.style.display = "fcdlex";
         div.style.justifyContent = "between";
         div.style.border = "2px solid black";
         var text1 = document.createElement('h1');
